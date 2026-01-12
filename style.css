@@ -1,0 +1,47 @@
+.saffron {                       /* Class Selector */
+    width: 900px;
+    height: 600px;
+    background-color: #ff7733;
+    border: 1px solid black;
+    position: relative;
+}
+
+.saffron > .white {            /* Child Selector = for direct child */
+    width: 900px;
+    height: 200px;
+    background-color: white;
+    border: solid black;
+    border-width: 1px 0px;
+    position: absolute;
+    top: 200px;
+}
+
+.saffron .circle {             /* Descendant Selector = for grandchild */
+    width: 180px;
+    height: 180px;
+    background-color: navy;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+}
+
+.saffron > .green {            /* Child Selector */
+    width:900px;
+    height: 200px;
+    background-color: rgba(22, 100, 0, 0.97);
+    position: absolute;
+    top: 400px;
+}
+
+p {                           /* Element Selector */
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.circle > p {                 /* Child Selector */
+    color: whitesmoke;
+}
